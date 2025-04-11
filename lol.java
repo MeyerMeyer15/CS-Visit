@@ -1,9 +1,13 @@
 public class lol {
-    public static void main(String[] args) {
-        System.out.println("lol World");
-        
+    public void greet () {
+        System.out.println("Hello Maddie from an object");
     }
-}
+    public static void main(String[] args) {
+        lol Lol = new lol();
+        System.out.println("lol World");
+        Lol.greet();
+    }}
+
 
 
 
